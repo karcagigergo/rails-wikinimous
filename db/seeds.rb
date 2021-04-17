@@ -12,5 +12,5 @@ require 'faker'
       title:    Faker::Cannabis.strain,
       content: "#{Faker::Cannabis.health_benefit}, try here: #{Faker::Cannabis.brand}"
     )
-    restaurant.save!
+    article.save!
   end
