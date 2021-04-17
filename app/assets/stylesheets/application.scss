@@ -1,1 +1,16 @@
-@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Roboto:wght@100;300;400;500;700&family=Train+One&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+}
+.main-container {
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+// font-family: 'Cormorant Garamond', serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Train One', cursive;
