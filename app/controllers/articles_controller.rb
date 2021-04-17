@@ -20,6 +20,14 @@ class ArticlesController < ApplicationController
         redirect_to article_path(@article)
     end
 
+    def edit; end
+
+    def update
+        @article.update(article_strong_params)
+        # no need for app/views/restaurants/update.html.erb
+        redirect_to article_path(@article)
+    end
+
     private
 
     def article_strong_params
